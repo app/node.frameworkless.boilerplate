@@ -32,5 +32,5 @@ function listener (req, res) {
 }
 
 const server = http.createServer(listener)
-server.listen(1337, '127.0.0.1')
-console.log('Server running at http://127.0.0.1:1337/')
+server.listen(1337, 'localhost')
+console.log('Server running at http://localhost:1337/')
