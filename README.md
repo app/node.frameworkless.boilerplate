@@ -10,6 +10,8 @@ Simple server side Node.js application (for example API provider) — is the bes
 
 ### Folder structure
 
+SBD
+
 ### How to use/install
 
 ### References
