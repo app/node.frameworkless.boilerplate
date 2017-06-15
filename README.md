@@ -1,5 +1,5 @@
-### Drop-in boilerplate code and folder structure for quick start plain Node.js project  
-### (vim version)
+### Drop-in boilerplate code and folder structure for quick start plain Node.js project
+### This is for vim users. Check [master](https://github.com/app/node.frameworkless.boilerplate) for editor independent version
 Simple server side Node.js application (for example API provider) — is the best usage case of the boilerplate.  
 
 # Main features
