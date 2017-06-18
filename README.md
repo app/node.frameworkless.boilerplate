@@ -21,17 +21,14 @@ Or simple download and extract zip file https://github.com/app/node.frameworkles
 mv node.frameworkless.boilerplate my-best-app
 cd my-best-app
 ```
-### Javascript linter (optional setup)
+### Javascript linter — eslint (optional setup)
 Follow steps assumes you have `node` and `npm` command in your shell. Search in google 'How to install node.js and npm' for you system if not.   
+Eslint configured to use [Javascript standard code style](https://standardjs.com/). To use other code style run `eslint --init` or/and change `.eslintrc.js ` file.  
 ```
 npm init
-npm install eslint locate-path eslint-plugin-promise@latest eslint-plugin-standard@latest --save-dev
-./node_modules/.bin/eslint --init
+npm install eslint@3.x locate-path eslint-plugin-promise@latest eslint-plugin-standard@latest eslint-plugin-node eslint-plugin-import eslint-config-standard --save-dev
 ```
-Choose 'standard' code style from popular styles  
-```
-git commit -m 'Import' ./package.json ./package-lock.json
-```
+Do not forget to `git commit -m 'Import' ./package.json ./package-lock.json` 
 
 ### References
 - Node 8.x API Reference
