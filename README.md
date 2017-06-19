@@ -15,7 +15,7 @@ SBD
 ```
 git clone https://github.com/app/node.frameworkless.boilerplate.git
 ```
-Or simple download and extract zip file https://github.com/app/node.frameworkless.boilerplate/archive/vim.zip  
+Or simple download and extract zip file https://github.com/app/node.frameworkless.boilerplate/archive/master.zip  
 ```
 mv node.frameworkless.boilerplate my-best-app
 cd my-best-app
