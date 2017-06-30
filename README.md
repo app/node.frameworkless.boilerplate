@@ -11,7 +11,7 @@ Simple server side Node.js application (for example API provider) — is the bes
 ### Folders structure
 
 - `/app` — server side application code folder
-- `/app/node_modules` - place for your app's modules code.
+- `/app/node_modules` - place for your app's modules code
 - `/web` — client side html/jpeg/css files and javascript code for in user's browser execution
 - `/install` — database initialization scripts and other files for app deployment
 - `/bin` — server side application start/stop scripts and similar helpers
