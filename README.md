@@ -7,9 +7,14 @@ Simple server side Node.js application (for example API provider) — is the bes
 - Develop your app by running `node app/server.js`  
 - Deploy your app by targeting nginx/apache config root to `web/` folder and run `./bin/pm2-start.sh` daemon  
 
-### Folder structure
+### Folders structure
 
-SBD
+- `/app` — server side application code folder
+- `/app/node_modules` - place for your app's modules code.
+- `/web` — client side html/jpeg/css files and javascript code for in user's browser execution
+- `/install` — database initialization scripts and other files for app deployment
+- `/bin` — server side application start/stop scripts and similar helpers
+- `/node_modules` — place for third party libs. Will reveille itself after `npm install` commadn execution. You do NOT want to place it under git control :)
 
 ### How to use/install
 ```
