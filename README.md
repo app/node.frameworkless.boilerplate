@@ -1,10 +1,10 @@
-## Drop-in boilerplate code and folder structure for quick start plain Node.js project
+## Drop-in boilerplate code and folder structure for plain Node.js project start
 This is for vim users. Check [master](https://github.com/app/node.frameworkless.boilerplate) for editor independent version.   
 Simple server side Node.js application (for example API provider) — is the best usage case of the boilerplate.  
 
 ### Main features
 - Command line oriented development. No IDE, no framework, just your faivorite code editor  
-- Brake you app in modules and put them to `app/node_modules` folder for Node’s require algorithm  
+- Break you app into modules and put them to `app/node_modules` folder for Node’s require algorithm  
 - Develop your app by running `node app/server.js`  
 - Deploy your app by targeting nginx/apache config root to `web/` folder and run `./bin/pm2-start.sh` daemon  
 
