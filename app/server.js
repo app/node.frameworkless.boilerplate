@@ -1,8 +1,18 @@
 const http = require('http')
 const url = require('url')
 const fs = require('fs')
-const webPath = __dirname.concat('/../web')
 
+const webPath = __dirname.concat('/../web')
+const host = `localhost`
+const port = `1337`
+
+/**
+ * This is server side code place
+ *
+ * @param req — http request object
+ * @param res — http response object
+ * @returns — nothing
+ */
 function listener (req, res) {
   const purl = url.parse(req.url, true)
   if (purl.pathname === '/') {
@@ -31,6 +41,9 @@ function listener (req, res) {
   })
 }
 
+/// Create server
 const server = http.createServer(listener)
-server.listen(1337, 'localhost')
-console.log('Server running at http://localhost:1337/')
+/// Start server
+server.listen(port, host)
+/// Show address to open browser with
+console.log(`Server running at http://${host}:${port}/`)
