@@ -24,6 +24,7 @@ Or simple download and extract zip file https://github.com/app/node.frameworkles
 ```
 mv node.frameworkless.boilerplate my-best-app
 cd my-best-app
+git remote remove origin
 ```
 
 ### References
