@@ -3,6 +3,13 @@ const url = require('url')
 const fs = require('fs')
 const webPath = __dirname.concat('/../web')
 
+/**
+ * Main server loop
+ *
+ * @param req request data
+ * @param res {response object}
+ * @returns {undefined}
+ */
 function listener (req, res) {
   const purl = url.parse(req.url, true)
   if (purl.pathname === '/') {
