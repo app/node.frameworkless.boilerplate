@@ -58,3 +58,4 @@ This feature blocks the automatic detection of file updates. To disable safe wri
 - [plain vanilla node.js intro tutorial](https://gist.github.com/shimondoodkin/6213581)
 - [Working without frameworks](https://medium.com/node-js-javascript/working-without-frameworks-part-1-b948f281f782)
 - [Running Node.js on Linux with systemd](https://blog.codeship.com/running-node-js-linux-systemd/)
+- [Parcel bundler](https://parceljs.org/)
